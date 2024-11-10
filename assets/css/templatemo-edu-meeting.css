@@ -114,9 +114,11 @@ p {
 }
 
 img {
-  width: 100%;
+  // width: 100%; esto lo eliminé yo para modificar el tamaño de imagenes a mi gusto
   overflow: hidden;
 }
+
+
 
 /* 
 ---------------------------------------------
@@ -977,6 +979,7 @@ section.upcoming-meetings .categories .main-button-red a {
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  
 }
 
 .meeting-item .down-content .date {
@@ -1014,7 +1017,13 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 14px;
 }
 
-
+/*sebas*/
+.meeting-item .up-content{
+  
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+/* fin sebas*/
 
 /*
 ---------------------------------------------
@@ -1645,12 +1654,12 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content p.description {
-  margin-top: 40px;
-  padding-top: 40px;
+  margin-top: 50px;
+  padding-top: 75px;
   border-top: 1px solid #eee;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;
   padding-bottom: 40px;
-  border-bottom: 1px solid #eee;
+   al pingo el border bottom border-bottom: 1px solid #eee;*/
 }
 
 .meeting-single-item .down-content .share {
@@ -1829,6 +1838,14 @@ responsive
   }
 
 // mio 
+
+.img-galeria{
+  
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
 // fin mio
 
 
