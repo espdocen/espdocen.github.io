@@ -1,0 +1,8 @@
+.copy-btn {
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+.copy-btn:hover {
+            color: var(--secondary-color);
+        }
